@@ -2023,7 +2023,7 @@ a {
     object-fit: cover;
     object-position:50% 50%;
     cursor:pointer;
-    transition:.5s ease-in-out;
+    transition:.2s ease-in-out;
     opacity:.4
 }
 .gallery-item:hover .image img{
@@ -2044,12 +2044,7 @@ opacity:1}
     backdrop-filter: blur(5px) saturate(1.8);
 }
 
-.gallery-item:hover .text{
-    opacity:1;
-    animation: move-down .3s linear;
-    padding:1em;
-    width:100%;
-}
+
 
 .w-1{
     grid-column: span 1;
